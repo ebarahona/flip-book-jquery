@@ -6,7 +6,9 @@
   "scripts": {
     "build-debug": "webpack --env.debug",
     "build-production": "webpack --display-modules",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,10 +41,12 @@
     "jquery": "^3.1.1",
     "raw-loader": "^0.5.1",
     "three": "^0.81.2",
-    "webpack": "^2.1.0-beta.27"
+    "webpack": "^2.1.0-beta.27",
+    "snyk": "^1.316.1"
   },
   "bugs": {
     "url": "https://github.com/iberezansky/flip-book-jquery/issues"
   },
-  "homepage": "https://github.com/iberezansky/flip-book-jquery#readme"
+  "homepage": "https://github.com/iberezansky/flip-book-jquery#readme",
+  "snyk": true
 }
