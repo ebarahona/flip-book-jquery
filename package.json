@@ -39,7 +39,7 @@
     "jquery": "^3.1.1",
     "raw-loader": "^0.5.1",
     "three": "^0.81.2",
-    "webpack": "^2.1.0-beta.27"
+    "webpack": "^3.11.0"
   },
   "bugs": {
     "url": "https://github.com/iberezansky/flip-book-jquery/issues"
